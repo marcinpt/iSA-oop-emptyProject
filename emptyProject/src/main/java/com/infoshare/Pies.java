@@ -1,6 +1,6 @@
 package com.infoshare;
 
-public class Pies {
+public final class Pies {
     public String rasa;
     public Integer waga;
     public String imie;
@@ -11,12 +11,15 @@ public class Pies {
         this.waga = waga;
         this.imie = imie;
         this.wzrost = wzrost;
+        System.out.println("Jestem w konstruktorze Pies");
     }
     public Pies(String rasa, Integer waga, String imie) {
         this(rasa, waga, imie, 0);
+        System.out.println("Jestem w konstruktorze Pies");
     }
     public Pies() {
         this("jamnik", 100, "Szarik", 180);
+        System.out.println("Jestem w konstruktorze Pies");
     }
 
     public String szczekaj() {

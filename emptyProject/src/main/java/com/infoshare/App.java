@@ -41,6 +41,16 @@ public class App
         System.out.println(s1.szczekaj());
         System.out.println(s2.szczekaj());
 
+        //10.1
+        Pies p4 = new Pies();
+        Pies p4 = new Pies("dalmatynczyk", 3, "Dax", 80);
+        Pies p4 = new Pies();
+        Suka s3 = new Suka();
+        PiesSamiec = new PiesSamiec();
+
+
+
+
 
 
     }
