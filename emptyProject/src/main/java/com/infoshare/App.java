@@ -35,6 +35,10 @@ public class App
         System.out.println(p1.szczekaj());
         System.out.println(p2.szczekaj());
 
+        // zad 9.1
+        Suka s1 = new Suka("jamniczka", 100, "Moli", 40);
+        System.out.println(s1.szczekaj());
+
 
     }
 }

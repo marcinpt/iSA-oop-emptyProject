@@ -20,7 +20,7 @@ public class Pies {
     }
 
     public String szczekaj() {
-        return rasa + " " + imie + " o wadze " + waga + " kg, wzroscie " + wzrost + " zrobil hau hau";
+        return rasa + " " + imie + " o wadze " + waga + " kg, wzroscie " + wzrost + " zrobil/a hau hau";
     }
 
 
