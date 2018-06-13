@@ -6,14 +6,14 @@ public class Pies {
     public String imie;
     public Integer wzrost;
 
-    public Pies(String rasa, Integer waga, String imie) {
-        this(rasa, waga, imie, 0);
-    }
     public Pies(String rasa, Integer waga, String imie, Integer wzrost) {
         this.rasa = rasa;
         this.waga = waga;
         this.imie = imie;
         this.wzrost = wzrost;
+    }
+    public Pies(String rasa, Integer waga, String imie) {
+        this(rasa, waga, imie, 0);
     }
     public Pies() {
         this("jamnik", 100, "Szarik", 180);
