@@ -30,23 +30,32 @@ public class App
 //        System.out.println(burek.szczekaj());
 //        System.out.println("BMI wynosi: " + burek.oobliczBmi(20, 20));
 
-        Pies p1 = new Pies();
-        Pies p2 = new Pies("jamnik", 100, "Burek" );
-        System.out.println(p1.szczekaj());
-        System.out.println(p2.szczekaj());
-
-        // zad 9.1
-        Suka s1 = new Suka("jamniczka", 100, "Moli", 40);
-        Suka s2 = new Suka("bokserka", 50, "Moli");
-        System.out.println(s1.szczekaj());
-        System.out.println(s2.szczekaj());
+//        Pies p1 = new Pies();
+//        Pies p2 = new Pies("jamnik", 100, "Burek" );
+//        System.out.println(p1.szczekaj());
+//        System.out.println(p2.szczekaj());
+//
+//        // zad 9.1
+//        Suka s1 = new Suka("jamniczka", 100, "Moli", 40);
+//        Suka s2 = new Suka("bokserka", 50, "Moli");
+//        System.out.println(s1.szczekaj());
+//        System.out.println(s2.szczekaj());
 
         //10.1
-        Pies p4 = new Pies();
-        Pies p4 = new Pies("dalmatynczyk", 3, "Dax", 80);
-        Pies p4 = new Pies();
-        Suka s3 = new Suka();
-        PiesSamiec = new PiesSamiec();
+//        Pies p4 = new Pies();
+//        Pies p4 = new Pies("dalmatynczyk", 3, "Dax", 80);
+//        Pies p4 = new Pies();
+//        Suka s3 = new Suka();
+//        PiesSamiec = new PiesSamiec();
+
+
+        Pies p1 = new Pies("jamnik2", 101, "Burek2");
+        Pies p2 = new Pies("jamnik", 100, "Burek" );
+        Suka s2 = new Suka("bokserka", 50, "Moli");
+
+        Wataha stado = new Wataha()
+        stado.addCz(p1);
+        stado.addCz(s2);
 
 
 
