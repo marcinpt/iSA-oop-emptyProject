@@ -37,7 +37,10 @@ public class App
 
         // zad 9.1
         Suka s1 = new Suka("jamniczka", 100, "Moli", 40);
+        Suka s2 = new Suka("bokserka", 50, "Moli");
         System.out.println(s1.szczekaj());
+        System.out.println(s2.szczekaj());
+
 
 
     }
