@@ -57,6 +57,9 @@ public class App
         stado.addCz(p1);
         stado.addCz(s2);
 
+        System.out.println(stado.ktoWStadzie());
+
+
 
 
 

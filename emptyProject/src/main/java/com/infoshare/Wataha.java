@@ -10,4 +10,17 @@ public class Wataha {
         czlonkowie.add(cz);
     }
 
+    public String ktoWStadzie() {
+        StringBuilder out = new StringBuilder();
+        out.append("czlonkowie stada =  ");
+        for (Pies pies : czlonkowie) {
+         out.append(pies.imie);
+         out.append(" , ");
+         out.append(" ; ")
+
+
+        }
+        return out.toString()
+    }
+
 }
